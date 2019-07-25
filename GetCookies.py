@@ -30,13 +30,14 @@ print("已经打开登录页面，请在浏览器中*手动登录*（可扫码�
 time.sleep(15) #花15s等待用户手动登录
 while driver.current_url == login_page_url:  #判断是否成功登录(登录成功会跳转页面)，否则继续等待
     time.sleep(10)
-    driver.get(login_page_url) #刷新登录界面，保证二维码未过期（也可以在浏览器手动刷新）
 #获取cookies保存到本地
+time.sleep(5)
 cookies = driver.get_cookies()
 cookie_dict = {}
 for cookie in cookies: #筛选数据，获取到的cookies中只有name与value两项有用
     if 'name' in cookie.keys() and 'value' in cookie.keys():
         cookie_dict[cookie['name']] = cookie['value']
+print("成功获取到cookies:     ",cookie_dict)
 jsObj = json.dumps(cookie_dict) #转换为json串方便保存
 print("获取到的cookies为：    ",jsObj)
 f = open(cookies_save_path,'w') #将获取到的cookies保存到cookies.txt文件中 
