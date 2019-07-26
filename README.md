@@ -4,11 +4,11 @@
 
 ## 使用方法
 
-## 环境
+### 环境
 
 Chrome, 与Chrome对应版本的chromedriver, Python3, selenium库
 
-## 运行步骤
+### 运行步骤
 
 1)安装运行环境：
  安装Chrome浏览器,下载对应版本的chromedriver, 将chromedriver.exe文件添加到Chrome的安装路径,将chromedriver安装路径添加进系统环境变量,安装Python, 为Python添加selenium库。
