@@ -1,6 +1,6 @@
 # 京东试用批量申请脚本
 
-![label1](https://img.shields.io/badge/爬虫-京东试用-green)   ![label1](https://img.shields.io/badge/chrome-selenium-blue)
+![label1](https://img.shields.io/badge/爬虫-京东试用-green)   ![label1](https://img.shields.io/badge/chrome-selenium-blue) ![label1](https://img.shields.io/badge/京东试用批量申请脚本-v1.0-blue)  
 
 ## 使用方法
 
