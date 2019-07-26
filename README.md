@@ -1,5 +1,5 @@
 # 京东试用批量申请脚本
-![label1](https://img.shields.io/badge/%E7%88%AC%E8%99%AB-%E4%BA%AC%E4%B8%9C%E8%AF%95%E7%94%A8-green)
+![label1](https://img.shields.io/badge/%E7%88%AC%E8%99%AB-%E4%BA%AC%E4%B8%9C%E8%AF%95%E7%94%A8-green&?link=http://https://github.com/zhengzubing/Crawler)
 ## 使用方法
 1. 环境 ： chrome, 对应版本的chromedriver, python, selenium库
 2. 运行步骤 ： 
