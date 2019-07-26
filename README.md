@@ -1,5 +1,5 @@
 # 京东试用批量申请脚本
-![label1](https://img.shields.io/badge/<爬虫>-<京东试用>-<green>)
+![label1](https://img.shields.io/badge/爬虫-京东试用-green)
 ## 使用方法
 1. 环境 ： chrome, 对应版本的chromedriver, python, selenium库
 2. 运行步骤 ： 
